@@ -1,0 +1,14 @@
+.mainForm{
+    max-width: 30%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(209, 209, 209);
+}
+
+.mainForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

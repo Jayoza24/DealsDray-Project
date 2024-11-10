@@ -1,0 +1,79 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+td img {
+  display: block;
+  margin: 0 auto;
+}
+
+img{
+  object-fit: cover;
+}
+
+.actionButtons {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.empHeader {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.empHeader div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.empHeader div button {
+  width: 300px;
+  background-color: rgb(48, 202, 48);
+}
+
+.empHeader div button:hover {
+  background-color: green;
+}
+
+.search input[type="text"] {
+  padding: 8px;
+  width: 30rem;
+  margin: 5px 0;
+}
+
+.pagination{
+  padding-bottom: 50px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.sorting{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sorting label{
+  font-size: 15px;
+}
